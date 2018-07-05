@@ -1,0 +1,151 @@
+/* reset css */
+* {
+    margin:0;
+    padding:0;
+}
+  body {
+    line-height:1;
+    font-size:110%;
+    font-family:'Open Sans', sans-serif;
+     color:#212827;
+	 background-color:b7b5b5;
+}
+ 
+#container {
+    width:1300px;
+    margin:0 auto;
+    box-shadow:0 0 1em #CCCCCC;
+	
+}
+/* header */
+header {
+    padding:20px;
+}
+header h1 {
+	margin:20px 10px;
+    color:#b5b5b5;
+ }
+ nav {
+    display:block;
+    background-color:#67e588;
+}
+ nav ul {
+    list-style-type:none;
+}
+ nav ul li {
+    float:left;
+}
+ nav li a {
+    padding:15px 30px;
+    display:block;
+    color:#fff;
+    font-size:14px;
+    text-decoration:none;
+    font-weight:bold;
+}
+ 
+nav .active a,
+nav li:hover a {
+    background-color:#16e04c;
+}
+ 
+nav:after, nav:before {
+    content:'';
+    display:table;
+}
+ nav:after {
+    clear:both;
+ }
+.photo {
+    widht: 200px;
+	height: 100px;
+}
+ /* footer */
+footer {
+    clear:both;
+    background-color:#99a89d;
+    padding:20px;
+    color:#eee;
+}
+/* main content */
+#main {
+    float:left;
+    width:1330px;
+	padding:20px;
+}
+ 
+/* box */
+.box {
+    display:block;
+    float:left;
+    width:27%;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    padding:0 10px;
+    
+}
+
+.row {
+    margin:0 -10px;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+.box img {
+    border:0;
+    vertical-align:left;
+    height:400px;
+	width:300px;
+	align:center-right;
+}
+.box1 img {
+    border:0;
+    vertical-align:left;
+    height:100px;
+	width:50px;
+	align:center-right;
+}
+table thead {
+	background:#171717;
+	}
+#sidebar {
+	float:right;
+    width:300px;
+    padding:20px;
+}
+ 
+.widget-box {
+    border:1px solid #eee;
+    margin-bottom:20px;
+}
+ 
+.widget-box .title {
+    padding:10px 16px;
+    background-color:#428bca;
+    color:#fff;
+}
+ 
+.widget-box ul {
+    list-style-type:none;
+}
+ 
+.widget-box li {
+    border-bottom:1px solid #eee;
+}
+ 
+.widget-box li a {
+    padding:10px 16px;
+    color:#333;
+    display:block;
+    text-decoration:none;
+}
+ 
+.widget-box li:hover a {
+    background-color:#eee;
+}
+ 
+.widget-box p {
+    padding:15px;
+    line-height:25px;
+}
